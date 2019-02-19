@@ -8,7 +8,7 @@ npm install -g @vue/cli
 
 vue --version
 
-vue create hello-world
+vue create first-vue-project
 
 echo "Exit Bash file"
 
