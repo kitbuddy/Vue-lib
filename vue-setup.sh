@@ -1,5 +1,6 @@
 #!/bin/bash
-# Ankit Jain Bash file for istalling vue
+# Ankit Jain 
+# Bash file for istalling vue
 
 echo "Welcome file"
 # Install Vue js 
