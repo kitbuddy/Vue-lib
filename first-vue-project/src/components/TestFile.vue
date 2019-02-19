@@ -18,17 +18,29 @@ export default {
   name: 'TestFile',
   data () {
     return {
-      msg: 'Welcome to Test FILE',
-      testName : 'this is Test Name'
-    }
+        msg: 'Welcome to Test FILE',
+        testName : 'this is Test Name',
+        users: []
+}
+  },
+  created() {
+    console.log('this is in created ')
+
+    var vm = this
+    this.$http
+      .get('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+        .then(json => console.log(json))
+    
+  },
+   beforeCreate: function() {
+    console.log('this is before create')
   },
   methods:
    {
         runClick: () => {
         alert('Alert')    
   }
-
-      
   }
 }
 </script>
