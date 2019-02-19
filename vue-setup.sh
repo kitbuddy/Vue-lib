@@ -10,7 +10,7 @@ vue --version
 
 yarn global add @vue/cli-init
 
-#vue create first-vue-project
+vue init webpack first-vue-project
 
 echo "Exit Bash file"
 
