@@ -8,7 +8,9 @@ npm install -g @vue/cli
 
 vue --version
 
-vue create first-vue-project
+yarn global add @vue/cli-init
+
+#vue create first-vue-project
 
 echo "Exit Bash file"
 
