@@ -1,5 +1,5 @@
 #!/bin/bash
-# Ankit Jain 
+# author: Ankit Jain 
 # Bash file for istalling vue
 
 echo "Welcome file"
